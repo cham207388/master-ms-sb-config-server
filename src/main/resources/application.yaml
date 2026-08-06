@@ -5,10 +5,16 @@ spring:
     name: master-ms-sb-config-server
   profiles:
     active:
-      - native
+#      - native # for classpath and file system config server
+      - git # for git config server
   cloud:
     config:
       server:
         native:
           search-locations: classpath:/config
 #          search-locations: file:///Users/Document/config
+        git:
+          uri: https://github.com/cham207388/master-ms-sb-config-server.git
+          default-label: main
+          timeout: 5
+          clone-on-start: true
