@@ -4,7 +4,7 @@ build:
 loans:
   message: "Welcome to SecureBank loans related prod APIs"
   contactDetails:
-    name: "Reine Aishwarya - Product Owner"
+    name: "Ebrahim - Product Owner"
     email: "alhagie@abcham.com"
   onCallSupport:
     - (453) 392-4829

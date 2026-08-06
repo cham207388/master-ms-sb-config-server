@@ -2,10 +2,10 @@ build:
   version: "1.1"
 
 cards:
-  message: "Welcome to SecureBank cards related prod APIs"
+  message: "Welcome to SecureBank cards related default APIs"
   contactDetails:
-    name: "Reine Aishwarya - Product Owner"
-    email: "alhagie@abcham.com"
+    name: "Alhagie - Product Owner"
+    email: "default@abcham.com"
   onCallSupport:
     - (453) 392-4829
     - (236) 203-0384
