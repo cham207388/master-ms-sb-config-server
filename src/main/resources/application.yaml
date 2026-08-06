@@ -1,5 +1,14 @@
+server:
+  port: 8071
 spring:
   application:
     name: master-ms-sb-config-server
-server:
-  port: 8071
+  profiles:
+    active:
+      - native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+#          search-locations: file:///Users/Document/config
