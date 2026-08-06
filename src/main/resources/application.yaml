@@ -14,7 +14,7 @@ spring:
 #          search-locations: classpath:/config
 #          search-locations: file:///Users/Document/config
         git:
-          uri: https://github.com/cham207388/master-ms-sb-config-server.git
+          uri: https://github.com/cham207388/config-server-sb-sc-ms.git
           default-label: main
           timeout: 5
           clone-on-start: true
