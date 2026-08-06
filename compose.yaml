@@ -5,8 +5,8 @@ services:
     ports:
       - '5672:5672'
       - '15672:15672'
-    networks:
-      - rabbitmq
-networks:
-  rabbitmq:
-    driver: bridge
+#    networks:
+#      - rabbitmq
+#networks:
+#  rabbitmq:
+#    driver: bridge
