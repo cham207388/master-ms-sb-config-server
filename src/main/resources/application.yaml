@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: master-ms-sb-config-server
+server:
+  port: 8071
