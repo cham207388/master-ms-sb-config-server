@@ -18,3 +18,15 @@ spring:
           default-label: main
           timeout: 5
           clone-on-start: true
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USERNAME:guest}
+    password: ${RABBITMQ_PASSWORD:guest}
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
+encrypt:
+  key: "SJEHQO2EUQWIENWAKJDHQO2I"
